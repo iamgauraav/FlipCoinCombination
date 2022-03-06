@@ -23,8 +23,8 @@ echo "number of heads is : " $headsCount
 echo "number of tail is : " $tailsCount
 
 
-percentageOfHeads=$(($(($headsCount+100))/$num))
-percentageOfTails=$(($(($tailsCount+100))/$num))
+percentageOfHeads=$(($(($headsCount*100))/$num))
+percentageOfTails=$(($(($tailsCount*100))/$num))
 
 echo "Heads=$percentageOfHeads%"
 echo "Tails=$percentageOfTails%"
