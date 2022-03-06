@@ -1,3 +1,10 @@
 #!/bin/bash -x
 
-echo "Welcome to Flip Coin Combination problem"
+flip=$(($((RANDOM%10))%2))
+
+if [ $flip -eq 1 ]
+then
+	echo "Heads"
+else
+	echo "Tails"
+fi
